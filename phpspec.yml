@@ -1,0 +1,11 @@
+extensions:
+# http://alex.leonard.ie/2014/04/05/getting-phpspec-work-laravel/
+- PhpSpec\Laravel\Extension\LaravelExtension
+testing_environment: 'testing'
+
+suites:
+  bolsa_suite:
+    namespace: Bolsa
+    src_path: app
+    spec_path: app
+    spec_prefix: spec

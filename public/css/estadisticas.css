@@ -1,0 +1,33 @@
+body{background-color:rgb(255, 255, 255);font:300 0.875em/1.38 Muli;color:rgb(0, 0, 0);}
+
+.arriba{display:block;float:left;width:122px;height:49px;border:1px solid rgba(0, 0, 0, 0.03);border-radius:3px;font-size:1em;line-height:1.38;text-align:center;color:rgb(0, 0, 0);resize:none;-webkit-transition:2s;-moz-transition:2s;-o-transition:2s;-ms-transition:2s;transition:2s;}
+
+.carrera{display:block;width:90%;height:34px;margin:12px auto 0;padding-top:7px;border:1px solid rgba(0, 0, 0, 0.46);border-radius:3px;font-size:1em;line-height:1.38;text-align:center;color:rgb(0, 0, 0);resize:none;-webkit-transition:2s;-moz-transition:2s;-o-transition:2s;-ms-transition:2s;transition:2s;}
+
+.carrera-general{display:block;width:90%;height:34px;margin:28px auto 0;padding-top:7px;border:1px solid rgba(0, 0, 0, 0.46);border-radius:3px;font-size:1em;line-height:1.38;text-align:center;color:rgb(0, 0, 0);resize:none;-webkit-transition:2s;-moz-transition:2s;-o-transition:2s;-ms-transition:2s;transition:2s;}
+
+.carreras{float:right;width:200px;}
+
+.grafica-ofertas,.grafica-vacantes{float:left;width:462px;height:248px;}
+
+.grafica-software{float:left;width:462px;height:496px;}
+
+.graficas{float:left;width:721px;}
+
+.main{width:942px;margin:37px auto 0;background-image:url('../images/logo_ITQ_suave(2).png');background-repeat:no-repeat;background-size:contain;background-position:25% 50%;}
+
+.opciones{position:relative;width:942px;height:49px;margin:8px auto 0;}
+
+.stuff-oferta-container,.stuff-vacante-container{width:100%;height:248px;margin:41px auto 0;}
+
+.stuff-software{width:100%;height:496px;margin:30px auto 0;}
+
+.tabla-oferta,.tabla-vacantes{float:left;width:241px;height:248px;margin-left:18px;}
+
+.tabla-software{float:left;width:241px;height:496px;margin-left:18px;}
+
+.volver{display:block;float:left;width:122px;height:49px;margin-left:1.16773%;padding-top:5px;border:1px solid rgb(255, 255, 255);border-radius:3px;background-color:rgb(196, 106, 41);font-size:1em;line-height:1.38;text-align:center;color:rgb(255, 255, 255);resize:none;-webkit-transition:2s;-moz-transition:2s;-o-transition:2s;-ms-transition:2s;transition:2s;}
+
+.arriba-1,.arriba-3,.arriba-4,.arriba-5{margin-left:1.16773%;}
+
+.arriba-2,.arriba-6{margin-left:1.27389%;}

@@ -1,0 +1,43 @@
+body{height:100%;background:url('../images/logo_ITQ_suave(2).png') rgb(196, 106, 41);background-repeat:no-repeat;background-size:auto 80%;background-position:80% 50%;font:100 1.125em/1.38 Muli;color:rgb(242, 242, 242);}
+
+.carrera{display:block;width:100%;height:34px;margin:12px auto 0;padding-top:7px;border:1px solid rgba(0, 0, 0, 0.46);border-radius:3px;font-size:0.778em;font-weight:300;line-height:1.38;text-align:center;text-transform:uppercase;color:rgb(0, 0, 0);resize:none;-webkit-transition:2s;-moz-transition:2s;-o-transition:2s;-ms-transition:2s;transition:2s;}
+
+.carrera-fecha{float:left;clear:both;width:100%;padding-left:5px;font:1em/1.38 'Josefin Slab';color:rgb(242, 242, 242);}
+
+.carrera-general{display:block;width:100%;height:34px;margin:0 auto;padding-top:7px;border:1px solid rgba(0, 0, 0, 0.46);border-radius:3px;font-size:0.778em;font-weight:300;line-height:1.38;text-align:center;text-transform:uppercase;color:rgb(0, 0, 0);resize:none;-webkit-transition:2s;-moz-transition:2s;-o-transition:2s;-ms-transition:2s;transition:2s;}
+
+.carreras{float:right;width:162px;height:537px;}
+
+.contenedor-nav{float:left;width:100%;}
+
+.contenido{width:960px;height:554px;margin:6px auto 0;}
+
+.enlace-pagina{display:block;width:44px;height:32px;min-height:32px;margin:0 auto;font-size:1em;font-weight:400;line-height:1.38;text-align:center;color:rgb(0,0,0);}
+
+.main{position:relative;float:left;clear:both;width:100%;}
+
+.nav-principal{position:relative;width:100%;margin:20px auto 0;}
+
+.oferta-sueldo-horario{float:left;clear:both;width:100%;margin-top:4px;padding-left:5px;font:1em/1.38 'Josefin Slab';color:rgb(242, 242, 242);}
+
+.pagina{float:left;width:44px;height:32px;}
+
+.paginacion{float:left;width:712px;height:32px;}
+
+.pagination{float:left;clear:both;width:712px;margin:10px 0 0 43px;}
+
+.principal{float:left;width:797px;}
+
+.subtitulo{margin:0 auto;font:400 1em/1.38 'Josefin Slab';text-align:center;text-transform:uppercase;letter-spacing:2px;color:rgb(242, 242, 242);}
+
+.titulo{float:left;width:100%;padding-left:5px;font-size:0.944em;font-weight:300;line-height:1;letter-spacing:1px;color:rgb(242, 242, 242);}
+
+.titulo-pagina{width:543px;margin:2px auto 0;font-size:1.333em;font-weight:400;line-height:1.38;text-align:center;color:rgb(0,0,0);}
+
+.vacante-info{float:left;width:100%;margin-top:5px;padding:6px;}
+
+.vacante1{display:block;float:left;width:100%;margin-top:4px;border:1px solid rgba(0, 0, 0, 0.1);border-radius:4px;background-color:rgba(0, 0, 0, 0.16);}
+
+.vacantes{width:712px;margin:0 auto;}
+
+._text{display:block;width:44px;height:32px;min-height:32px;margin:0 auto;font-size:1em;font-weight:400;line-height:1.38;text-align:center;color:rgb(255, 255, 255);}

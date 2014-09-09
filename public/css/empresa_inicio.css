@@ -1,0 +1,203 @@
+.contenido-vacante p:hover{margin-bottom:1em;}
+
+.puesto-2:focus{box-shadow:1px 2px 6px rgba(0, 0, 0, 0.05) inset;-webkit-transition:background 0.2s ease;-moz-transition:background 0.2s ease;-o-transition:background 0.2s ease;-ms-transition:background 0.2s ease;transition:background 0.2s ease;}
+
+body{background-color:rgb(242, 242, 242);font:400 1em/1.38 Helvetica;color:rgb(0, 0, 0);}
+
+.aplicante{display:block;float:left;width:322px;min-height:20px;padding-left:20px;font-size:0.875em;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.c-area{float:left;width:25.4777070063%;}
+
+.c-boxes-1{float:left;width:264px;margin-left:4.45031%;}
+
+.c-boxes-2{float:left;width:264px;margin-left:6.19195%;}
+
+.c-boxes-3{float:left;width:264px;margin-left:5.27634%;}
+
+.c-carrera{float:left;width:25%;margin-left:12.46683%;}
+
+.c-checkboxes{width:100%;margin:24px auto 0;}
+
+.c-comedor,.c-residencia,.c-viajar{float:left;width:99.6507352941%;height:22px;}
+
+.c-correo{float:left;width:25.2653927813%;}
+
+.c-errores{float:left;clear:both;width:100%;margin-top:68px;}
+
+.c-experiencia{float:left;width:25.2653927813%;margin-left:12.20807%;}
+
+.c-formulario,.info-empresa{width:100%;margin:8px auto 0;}
+
+.c-gasolina,.c-honorarios{float:left;clear:both;width:99.6507352941%;height:22px;margin:9px 0 0 0.14205%;}
+
+.c-info-aplicante{width:100%;margin:0 auto;padding-bottom:12px;}
+
+.c-info-vacante{width:96%;margin:0 auto;}
+
+.c-ingles{float:left;width:25.5838641188%;margin-left:11.57113%;}
+
+.c-link-1{float:left;width:65px;height:22px;margin-left:3.04348%;}
+
+.c-link-2{float:left;width:147px;height:22px;margin-left:18.04348%;}
+
+.c-link-4{float:left;width:105px;height:22px;margin-left:18.15048%;}
+
+.c-link-5{float:left;width:56px;height:22px;margin-left:18.03499%;}
+
+.c-menu{width:984px;margin:0 auto;border:1px solid #dfe0e4;border-radius:3px;background-color:rgb(255, 255, 255);}
+
+.c-puesto{float:left;width:25%;}
+
+.c-rotar{float:left;width:32%;height:22px;margin:36px 0 0 5.001%;}
+
+.c-aginaldo,.c-comision,.c-prima,.c-seguro,.c-transporte,.c-vales{float:left;clear:both;width:99.6507352941%;height:22px;margin-top:9px;}
+
+.c-software{float:left;width:597px;margin-left:11.1465%;}
+
+.c-sueldo{float:left;width:25.5838641188%;}
+
+.c-texto-vacante{float:left;clear:both;width:100%;margin-top:24px;}
+
+.c-tipo{float:left;width:25.2653927813%;margin-left:11.9941%;}
+
+.c-titulado{float:left;width:25%;margin-left:12.43863%;}
+
+.c-titulo-vacante{float:left;clear:both;width:100%;margin-top:48px;}
+
+.c-viaticos{float:left;clear:both;width:99.6507352941%;height:22px;margin:9px 0 0 0.17756%;}
+
+.carrera-vacante,.tipo-vacante{display:block;float:left;width:100px;height:46px;min-height:20px;padding-top:12px;font-size:0.875em;font-weight:400;line-height:1.38;color:rgb(0, 0, 0);}
+
+.cerrar-vacante{display:block;float:left;width:48px;min-width:46px;height:31px;margin-left:31px;padding-top:12px;border-bottom:1px dotted rgb(0, 0, 0);font-size:0.875em;font-weight:400;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.checkbox-rotar{display:block;float:left;}
+
+.container-l{width:100%;height:22px;margin:30px auto 0;}
+
+.container-links{float:left;width:920px;height:80px;}
+
+.container-logo{float:left;width:104px;height:80px;}
+
+.container-main{width:1024px;margin:0 auto;padding:20px;}
+
+.container-nav{width:100%;height:80px;margin:0 auto;background-color:rgb(0, 0, 0);}
+
+.contenido{width:844px;margin:0 auto;padding:12px;border:1px dotted rgba(0, 0, 0, 0.08);border-radius:4px;}
+
+.contenido-menu-2{width:958px;height:32px;margin:12px auto 0;border-bottom:1px solid #e5e5e5;}
+
+.contenido-vacante{display:block;float:left;width:440px;height:46px;min-height:20px;padding-top:8px;font-size:1em;font-weight:700;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.contenido-vacante:hover{text-decoration:underline;letter-spacing:0;word-spacing:0;text-indent:1px;}
+
+.correo-reclutador{display:block;float:left;width:291px;margin-left:11px;padding:14px 5px 5px;font-size:0.875em;font-weight:400;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.descargar{display:block;float:left;width:68px;margin-left:120px;border-bottom:1px dotted rgb(0, 0, 0);font-size:0.875em;font-weight:400;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.editar-info-empresa{display:block;float:left;width:117px;height:31px;margin-left:13px;padding-top:13px;border-bottom:1px dotted rgb(0, 0, 0);font-size:0.875em;font-weight:400;line-height:1.38;color:rgb(0, 0, 0);}
+
+.editar-vacante{display:block;float:left;width:42px;height:31px;margin-left:29px;padding-top:12px;border-bottom:1px dotted rgb(0, 0, 0);font-size:0.875em;font-weight:400;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.enlace-pagina{display:block;width:44px;height:32px;min-height:32px;margin:0 auto;padding-top:3px;font:400 1.125em/1.38 Muli;text-align:center;color:rgb(0,0,0);}
+
+.enviar-feedback{display:block;height:44px;margin:244px auto 0;padding:10px;border-radius:3px;background-color:rgb(196, 106, 41);box-shadow:0 3px 0 rgba(0, 0, 0, 0.29);font-size:1em;font-weight:400;line-height:1.38;text-align:center;color:rgb(242, 242, 242);}
+
+.error-feedback{display:block;width:208px;min-height:15px;margin:12px auto 0;font:400 1.125em/1.38 'Josefin Slab';text-align:center;color:rgb(106, 12, 12);}
+
+.error-titulo{display:block;width:100%;margin:0 auto;font:400 0.875em/1.38 'Josefin Slab';text-align:center;color:rgba(106, 12, 12, 0.5);}
+
+.errores{width:99.9461206896%;margin:0 auto;font:700 1.25em/1.38 'Josefin Slab';text-align:center;color:rgba(106, 12, 12, 0.5);}
+
+.fecha{display:block;float:left;width:322px;margin-left:126px;font-size:0.875em;font-weight:400;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.feedback{display:block;float:left;width:97px;margin-left:3px;font-size:1em;font-weight:400;line-height:1.38;text-align:center;text-transform:uppercase;letter-spacing:1px;color:rgb(242, 242, 242);}
+
+.feedback-form{width:942px;margin:20px auto 0;}
+
+.feedback-textarea{display:block;float:left;clear:both;width:89.999668259%;height:220px;margin:12px 0 0 47px;padding:12px;border:1px solid rgba(0, 0, 0, 0.09);border-radius:4px;background-color:rgb(242, 242, 242);font:400 1.25em/1.38 'Josefin Slab';color:rgb(0, 0, 0);resize:horizontal;}
+
+.aginaldo,.comedor,.comision,.gasolina,.honorarios,.prima,.residencia,.rotar,.seguro,.transporte,.vales,.viajar,.viaticos{display:block;float:left;}
+
+.carrera,.experiencia,.ingles,.tipo,.titulado{display:block;float:left;width:100%;font-weight:400;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.logo{width:60px;height:60px;margin:10px auto 0;border-radius:100px;background:url('../images/logo_ITQ_original.png') rgb(26, 26, 26);background-repeat:no-repeat;background-size:contain;background-position:center center;}
+
+.logo-empresa{float:left;width:104px;height:57px;margin-left:15px;background-image:url('../images/google-logo.png');background-repeat:no-repeat;background-size:contain;background-position:center center;}
+
+.logout{display:block;float:left;width:50px;margin-left:2px;font-size:1em;font-weight:400;line-height:1.38;text-transform:uppercase;letter-spacing:1px;color:rgb(242, 242, 242);}
+
+.mensaje-error{width:47.8658536585%;margin:0 auto;padding:12px;border:1px solid rgba(106, 12, 12, 0.18);border-radius:3px;background-color:rgba(243, 206, 206, 0.54);}
+
+.mensaje-verde{width:984px;margin:0 auto;padding:12px;border:1px solid hsl(101, 70%, 62%);border-radius:4px;background-color:hsl(101, 70%, 86%);font:400 1.25em/1.38 'Josefin Slab';text-align:center;color:hsl(101, 70%, 22%);}
+
+.menu{display:block;float:left;width:58px;margin-left:3px;font-size:1em;font-weight:400;line-height:1.38;text-align:center;text-transform:uppercase;letter-spacing:1px;color:rgb(242, 242, 242);}
+
+.navigation{width:1024px;height:80px;margin:0 auto;}
+
+.nueva-vacante{display:block;float:left;clear:both;width:156px;height:44px;margin:24px 0 0 393px;padding-top:12px;border-radius:3px;background-color:rgb(196, 106, 41);box-shadow:0 3px 0 rgba(0, 0, 0, 0.29);font-size:1em;font-weight:400;line-height:1.38;text-align:center;color:rgb(242, 242, 242);}
+
+.num-1{float:left;width:24px;height:24px;margin-top:-14px;border-radius:100px;background-color:rgb(222, 222, 222);}
+
+.number-1{display:block;float:left;margin:4px 0 0 2px;font-size:0.75em;font-weight:400;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.numero-aplicantes{display:block;float:left;width:96px;height:31px;margin-left:30px;padding-top:12px;border-bottom:1px dotted rgb(0, 0, 0);font-size:0.875em;font-weight:400;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.option-1{display:block;float:left;width:96px;margin-left:24px;font-size:1em;font-weight:400;line-height:1.38;text-align:center;text-transform:uppercase;letter-spacing:1px;color:rgb(242, 242, 242);}
+
+.options-1,.options-2,.options-3,.options-4{width:100%;margin:6px auto 0;}
+
+.pagina{float:left;width:44px;height:32px;border:1px solid rgb(223, 224, 228);}
+
+.paginacion{width:100%;height:32px;margin:0 auto;}
+
+.pagination{width:712px;margin:67px auto 0;padding:12px;}
+
+.software{display:block;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.area,.correo,.puesto,.sueldo{display:block;float:left;width:100%;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.tel-empresa{display:block;float:left;width:209px;margin-left:13px;padding:14px 5px 5px;font-size:0.875em;font-weight:400;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.texto-vacante{width:820px;margin:0 auto;font:300 1.063em/1.38 Muli;color:rgb(0, 0, 0);}
+
+.titulo{margin:0 auto;font-size:1em;font-weight:400;line-height:1.38;text-align:center;color:#9197a3;}
+
+.titulo-menu-1{width:100%;height:32px;margin:0 auto;border-bottom:1px solid #e5e5e5;}
+
+.titulo-vacante{width:844px;height:57px;margin:0 auto;padding-top:10px;border:1px dotted rgba(0, 0, 0, 0.08);border-radius:4px;font:300 1.625em/1.38 Muli;text-align:center;color:rgb(0, 0, 0);}
+
+.vacante{float:left;clear:both;width:958px;margin:20px 0 0 12px;}
+
+.vacantes-cerradas{display:block;float:left;width:163px;height:31px;margin-left:13px;padding-top:13px;border-bottom:1px dotted rgb(0, 0, 0);font-size:0.875em;font-weight:400;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+._text{display:block;width:44px;height:32px;min-height:32px;margin:0 auto;padding-top:3px;font:400 1.125em/1.38 Muli;text-align:center;color:rgb(255, 255, 255);}
+
+.c-menu-2{padding:12px;}
+
+.c-menu-1,.c-menu-4{padding:20px;}
+
+.aginaldo-2,.comedor-2,.comision-2,.gasolina-2,.honorarios-2,.prima-2,.residencia-2,.rotar-1,.seguro-2,.transporte-2,.vales-2,.viajar-2,.viaticos-2{margin-top:3px;}
+
+.aginaldo-3,.comedor-3,.comision-3,.gasolina-3,.honorarios-3,.prima-3,.residencia-3,.rotar-2,.seguro-3,.transporte-3,.vales-3,.viajar-3,.viaticos-3{margin-left:6px;line-height:1.38;}
+
+.carrera-1,.experiencia-1,.ingles-1,.tipo-1,.titulado-1{min-height:22px;font-size:1em;}
+
+.carrera-2,.experiencia-2,.ingles-2,.tipo-2,.titulado-2{clear:both;margin-top:3px;padding:6px;border:1px solid rgba(119, 119, 119, 0.2);border-radius:3px;background:url('../images/select-arrows.svg') rgb(242, 242, 242);background-repeat:no-repeat;background-size:auto auto;background-position:right center;font-family:'Josefin Slab';font-size:1.125em;}
+
+.carrera-3,.experiencia-3,.ingles-3,.tipo-3,.titulado-3{clear:both;min-height:22px;font-size:0.875em;}
+
+.software-1{width:100%;min-height:22px;margin:0 auto;font-size:1em;font-weight:400;}
+
+.software-2{width:100%;height:38px;margin:3px auto 0;padding:6px;border:1px solid rgba(0, 0, 0, 0.06);border-radius:3px;background-color:rgb(255, 255, 255);box-shadow:1px 2px 6px rgba(0, 0, 0, 0.05) inset;font-family:'Josefin Slab';font-size:1.125em;font-weight:300;resize:none;}
+
+.software-3{float:left;clear:both;width:42.8181818181%;min-height:22px;margin-left:169px;font-size:0.875em;font-weight:400;}
+
+.area-1,.correo-1,.puesto-1,.sueldo-1{min-height:22px;font-size:1em;font-weight:400;}
+
+.area-2,.correo-2,.puesto-2,.sueldo-2{clear:both;height:38px;margin-top:3px;padding:6px;border:1px solid rgba(0, 0, 0, 0.06);border-radius:3px;background-color:rgb(255, 255, 255);box-shadow:1px 2px 6px rgba(0, 0, 0, 0.05) inset;font-family:'Josefin Slab';font-size:1.125em;font-weight:300;}
+
+.area-3,.correo-3,.puesto-3,.sueldo-3{clear:both;min-height:22px;font-size:0.875em;font-weight:400;}
+
+.vacante-1{height:46px;-webkit-transition:background 0.42s ease;-moz-transition:background 0.42s ease;-o-transition:background 0.42s ease;-ms-transition:background 0.42s ease;transition:background 0.42s ease;}
+
+.vacante-1:hover{background-color:rgb(223, 224, 228);}

@@ -1,0 +1,159 @@
+body{background-color:rgb(242, 242, 242);font:300 1em/1.38 Muli;color:rgb(0, 0, 0);}
+
+.alerta-roja{width:551px;min-height:62px;margin:34px auto 0;padding:20px;border:1px solid rgba(242, 125, 76, 0.93);border-radius:3px;background-color:rgba(249, 194, 171, 0.93);font-size:1em;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.alerta-verde{width:551px;min-height:62px;margin:34px auto 0;padding:20px;border:1px solid rgb(101, 218, 47);border-radius:3px;background-color:rgb(197, 241, 177);font-size:1em;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.btn-alta{display:block;width:36%;height:44px;margin:10px auto 0;padding:6px;border:1px solid rgba(0, 0, 0, 0.13);border-radius:3px;background-color:rgb(196, 106, 41);box-shadow:0 2px 0 rgba(0, 0, 0, 0.35);font-size:1em;line-height:1.38;text-align:center;color:rgb(242, 242, 242);}
+
+.btn-formal{display:block;float:left;width:231px;height:46px;margin-left:40px;padding:10px;border:1px solid rgba(0, 0, 0, 0.13);border-radius:3px;background-color:rgb(196, 106, 41);box-shadow:0 2px 0 rgba(0, 0, 0, 0.35);font-size:1em;line-height:1.38;text-align:center;color:rgb(242, 242, 242);}
+
+.btn-iniciar{display:block;width:36%;height:41px;margin:10px auto 0;border-radius:4px;background-color:rgb(242, 242, 242);box-shadow:0 2px 0 rgba(0, 0, 0, 0.27);font-size:1em;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.btn-practicantes{display:block;float:left;width:231px;height:46px;padding:10px;border:1px solid rgba(0, 0, 0, 0.13);border-radius:3px;background-color:rgb(196, 106, 41);box-shadow:0 2px 0 rgba(0, 0, 0, 0.35);font-size:1em;line-height:1.38;text-align:center;color:rgb(242, 242, 242);}
+
+.btn-remind{display:block;width:40%;height:44px;margin:10px auto 0;padding:6px;border:1px solid rgba(0, 0, 0, 0.13);border-radius:3px;background-color:rgb(196, 106, 41);box-shadow:0 2px 0 rgba(0, 0, 0, 0.35);font-size:1em;line-height:1.38;text-align:center;color:rgb(242, 242, 242);}
+
+.btn-reset{display:block;width:231px;height:44px;margin:10px auto 0;padding:6px;border:1px solid rgba(0, 0, 0, 0.13);border-radius:3px;background-color:rgb(196, 106, 41);box-shadow:0 2px 0 rgba(0, 0, 0, 0.35);font-size:1em;line-height:1.38;text-align:center;color:rgb(242, 242, 242);}
+
+.c-botones{width:502px;margin:52px auto 0;}
+
+.c-bottom-links{width:552px;height:20px;margin:10px auto 0;}
+
+.c-carrera{position:relative;float:left;clear:both;z-index:77;width:246px;height:66px;margin:-66px 0 0 49.95073%;}
+
+.c-correo{height:66px;}
+
+.c-correo-reclutador{position:relative;float:left;z-index:34;width:246px;height:66px;}
+
+.c-cv{position:relative;float:left;clear:both;z-index:69;width:246px;height:66px;margin:-66px 0 0 49.95073%;}
+
+.c-direccion{position:relative;float:left;clear:both;z-index:46;width:246px;height:66px;margin:-66px 0 0 49.95073%;}
+
+.c-giro{position:relative;float:left;z-index:39;width:246px;height:66px;}
+
+.c-inputs{width:491px;margin:0 auto;}
+
+.c-inputs-aplicante-1,.c-inputs-reg-empresa-1{width:491px;height:66px;margin:20px auto 0;}
+
+.c-inputs-aplicante-1 .c-nombre{z-index:79;}
+
+.c-inputs-aplicante-2 .c-correo{position:relative;float:left;z-index:72;width:246px;}
+
+.c-inputs-aplicante-2,.c-inputs-aplicante-3,.c-inputs-aplicante-4,.c-inputs-reg-empresa-2,.c-inputs-reg-empresa-3,.c-inputs-reg-empresa-4{width:491px;height:66px;margin:0 auto;}
+
+.c-inputs-aplicante-4 .c-pass{z-index:61;}
+
+.c-inputs-aplicante-4 .c-pass2{z-index:63;}
+
+.c-inputs-reg-empresa-1 .c-nombre{z-index:44;}
+
+.c-inputs-reg-empresa-4 .c-pass{z-index:29;}
+
+.c-inputs-reg-empresa-4 .c-pass2{z-index:31;}
+
+.c-inputs-reg-empresa-5{float:left;clear:both;width:491px;height:66px;}
+
+.c-logo{position:relative;float:left;clear:both;z-index:30;width:246px;height:66px;margin:-66px 0 0 49.95073%;}
+
+.c-logo .logo{line-height:1.38;color:rgb(0, 0, 0);}
+
+.c-main{width:1024px;margin:0 auto;padding:20px;}
+
+.c-matricula{position:relative;float:left;z-index:66;width:246px;height:66px;}
+
+.c-nav{width:1024px;margin:0 auto;padding-top:20px;}
+
+.c-nav .logo{width:120px;height:auto;margin:0 auto;overflow:hidden;}
+
+.c-opciones{margin:34px auto 0;border-radius:4px;}
+
+.c-nombre,.c-pass{position:relative;float:left;width:246px;height:66px;}
+
+.c-pass2{position:relative;float:left;clear:both;width:246px;height:66px;margin:-66px 0 0 49.95073%;}
+
+.c-password{width:246px;height:66px;}
+
+.c-reclutador{position:relative;float:left;z-index:32;width:246px;height:66px;}
+
+.c-registro-aplicante,.c-registro-empresa{width:55.9959349593%;margin:34px auto 0;padding:20px;border:1px dotted rgba(0, 0, 0, 0.15);border-radius:4px;}
+
+.c-remind,.c-reset{width:55.9991107723%;margin:34px auto 0;border:1px dotted rgba(0, 0, 0, 0.15);border-radius:4px;}
+
+.c-rfc{position:relative;float:left;clear:both;z-index:36;width:246px;height:66px;margin:-66px 0 0 49.95073%;}
+
+.c-telefono{position:relative;float:left;clear:both;z-index:41;width:246px;height:66px;margin:-66px 0 0 49.95073%;}
+
+.c-universidad{position:relative;float:left;clear:both;z-index:74;width:246px;height:66px;margin:-66px 0 0 49.95073%;}
+
+.correo{display:block;height:41px;margin:0 auto;padding:3px 10px 0;border:1px solid rgba(0, 0, 0, 0.13);border-radius:4px;box-shadow:-2px 1px 5px rgba(0, 0, 0, 0.5) inset;font:400 1.125em/1.38 'Josefin Slab';text-align:center;color:rgb(0, 0, 0);}
+
+.crear-cuenta-empresa{display:block;margin-right:auto;margin-left:auto;padding:10px;border:1px solid rgba(0, 0, 0, 0.13);border-radius:3px;background-color:rgb(196, 106, 41);box-shadow:0 2px 0 rgba(0, 0, 0, 0.35);font-size:1em;line-height:1.38;text-align:center;color:rgb(242, 242, 242);}
+
+.cv{display:block;line-height:1.38;color:rgb(0, 0, 0);}
+
+.inicio .c-correo{position:relative;float:left;z-index:5;width:246px;}
+
+.inicio .c-password{position:relative;float:left;clear:both;z-index:7;margin:-66px 0 0 49.95073%;}
+
+.inicio .correo{width:231px;background-color:rgb(242, 242, 242);}
+
+.inicio .password{background-color:rgb(242, 242, 242);}
+
+.inicio-zorros .c-correo{position:relative;float:left;z-index:13;width:246px;}
+
+.inicio-zorros .c-password{position:relative;float:left;clear:both;z-index:15;margin:-66px 0 0 49.95073%;}
+
+.logo{display:block;}
+
+.menu-inicio{display:block;width:36%;height:41px;margin:0 auto;padding:4px;border-radius:4px;background-color:rgb(242, 242, 242);box-shadow:0 2px 0 rgba(0, 0, 0, 0.27);font-size:1em;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.password{display:block;width:231px;height:41px;margin:0 auto;padding:3px 10px 0;border:1px solid rgba(0, 0, 0, 0.13);border-radius:4px;box-shadow:-2px 1px 5px rgba(0, 0, 0, 0.5) inset;font:400 1.125em/1.38 'Josefin Slab';text-align:center;color:rgb(0, 0, 0);}
+
+.direccion,.email,.giro,.matricula,.nombre,.pass,.password_confirmation,.reclutador,.rfc,.telefono{display:block;width:231px;height:41px;margin:0 auto;padding:3px 10px 0;border:1px solid rgba(0, 0, 0, 0.13);border-radius:4px;background-color:rgb(255, 255, 255);box-shadow:-2px 1px 5px rgba(0, 0, 0, 0.5) inset;font:400 1.125em/1.38 'Josefin Slab';text-align:center;color:rgb(0, 0, 0);}
+
+.recuperar,.registro{display:block;float:left;width:50%;font-size:0.875em;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.registro-aplicante,.registro-empresa{width:491px;margin:0 auto;}
+
+.registro-aplicante .crear-cuenta-empresa{margin-top:30px;}
+
+.registro-empresa .crear-cuenta-empresa{margin-top:96px;}
+
+.remind .c-correo{width:70%;margin:0 auto;}
+
+.inicio .c-inputs,.inicio-zorros .c-inputs,.remind .c-inputs{height:66px;}
+
+.remind .correo{width:100%;background-color:rgb(255, 255, 255);}
+
+.iniciar,.inicio,.inicio-zorros,.remind,.reset{width:521px;margin:0 auto;padding:20px;border-radius:4px;}
+
+.reset .c-correo{width:246px;margin:0 auto;}
+
+.reset .c-password{margin:0 auto;}
+
+.c-inputs-aplicante-2 .correo,.inicio-zorros .correo,.reset .correo{width:231px;background-color:rgb(255, 255, 255);}
+
+.inicio-zorros .password,.reset .password{background-color:rgb(255, 255, 255);}
+
+.titulo{margin:10px auto 0;font-size:1.25em;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.titulo-reg-aplicante,.titulo-reg-empresa{margin:0 auto;font-size:1.125em;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.carrera,.universidad{display:block;width:231px;height:41px;margin:0 auto;padding-left:10px;border:1px solid rgb(119, 119, 119);border-radius:3px;background:url('../images/select-arrows.svg') rgb(242, 242, 242);background-repeat:no-repeat;background-size:auto auto;background-position:right center;font:400 1.125em/1.38 'Josefin Slab';color:rgb(0, 0, 0);}
+
+.c-opciones-1{width:56%;height:156px;border:1px dotted rgba(0, 0, 0, 0.15);}
+
+.c-opciones-2{width:55.9991107723%;border:1px dotted rgba(0, 0, 0, 0.15);}
+
+.c-opciones-3{width:56%;background-color:rgb(196, 106, 41);box-shadow:1px 1px 4px rgba(0, 0, 0, .5);}
+
+.c-opciones-4{width:55.9991107723%;background-color:rgb(196, 106, 41);box-shadow:1px 1px 4px rgba(0, 0, 0, .5);}
+
+.cv-1{margin:0 auto;font-size:1em;text-align:center;}
+
+.cv-2{float:left;clear:both;width:100%;margin-left:-1px;padding:0 10px;background-color:rgb(242, 242, 242);font-family:Helvetica;font-size:0.813em;font-weight:400;}
+
+.logo-2{margin:0 auto;font-size:1em;text-align:center;}
+
+.logo-3{float:left;clear:both;width:100%;margin-left:-1px;padding:0 10px;background-color:rgb(242, 242, 242);font-family:Helvetica;font-size:0.813em;font-weight:400;}

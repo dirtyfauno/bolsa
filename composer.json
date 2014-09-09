@@ -1,0 +1,77 @@
+{
+    "name": "ofauno/bolsa",
+    "description": "Bolsa de Trabajo",
+    "keywords": [
+        "bolsa de trabajo",
+        "bolsa"
+    ],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "4.1.*",
+        "zackkitzmiller/tiny": "1.2.*",
+        "laracasts/presenter": "0.1.*",
+        "league/fractal": "0.7.*",
+        "laracasts/utilities": "1.0.*",
+        "laracasts/validation": "~1.0.",
+        "intervention/image": "2.0.*",
+        "mandrill/mandrill": "1.0.*",
+        "doctrine/dbal": "~2.3",
+        "laracasts/flash": "~1.0",
+        "indatus/dispatcher": "~1.4",
+        "fzaninotto/faker": "1.4.*"
+    },
+    "extra": {
+        "heroku": {
+            "framework": "silex",
+            "document-root": "public",
+            "index-document": "index.php"
+        }
+    },
+    "autoload": {
+        "classmap": [
+            "app/commands",
+            "app/controllers",
+            "app/models",
+            "app/database/migrations/sqlite",
+            "app/database/migrations/reportes",
+            "app/database/seeds",
+            "app/tests/TestCase.php"
+        ],
+        "files": [
+            "app/Bolsa/helpers.php"
+        ],
+        "psr-4": {
+            "Bolsa\\": "app/Bolsa"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "composer dump-autoload --optimize",
+            "php artisan key:generate",
+            "php artisan bolsa:setup",
+            "php artisan db:seed --env=bolsa --database=sqlite",
+            "sudo chmod -R 777 app/storage",
+            "sudo chmod 777 app/database/production.sqlite",
+            "sudo chmod 777 app/database/reportes.sqlite",
+            "composer dump-autoload --optimize",
+            "php artisan optimize",
+            "echo agrega!! las credenciales mandrill en el archivo .env.php",
+            "sudo chown www-data app/database/production.sqlite",
+            "sudo chown www-data app/database/reportes.sqlite"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "itsgoingd/clockwork": "1.5.*",
+        "barryvdh/laravel-ide-helper": "1.11.*",
+        "phpunit/phpunit": "~4.0.0",
+        "mockery/mockery": "0.9.*",
+        "phpspec/phpspec": "~2.0.0",
+        "way/generators": "~2.0",
+        "benconstable/phpspec-laravel": "~1.0",
+        "codeception/codeception": "~2.0.0"
+    }
+}

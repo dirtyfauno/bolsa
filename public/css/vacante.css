@@ -1,0 +1,41 @@
+body{height:100%;background:url('../images/logo_ITQ_suave(2).png') rgb(196, 106, 41);background-repeat:no-repeat;background-size:contain;background-position:center center;font:300 1.063em/1.38 Muli;color:rgb(0, 0, 0);}
+
+.aplicar{display:block;height:44px;margin:0 auto;padding:12px;border-radius:3px;background-color:rgb(222, 222, 222);box-shadow:-1px 2px 0 1px rgba(0, 0, 0, 0.3);font-size:0.941em;font-weight:400;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.btn-atras{display:block;float:left;width:142px;height:35px;padding-top:6px;border:1px solid rgb(242, 242, 242);border-radius:3px;background-color:rgba(222, 222, 222, 0);box-shadow:1px 1px 1px rgba(0, 0, 0, .5) inset;font-size:0.941em;line-height:1.38;text-align:center;color:rgb(242, 242, 242);resize:none;-webkit-transition:2s;-moz-transition:2s;-o-transition:2s;-ms-transition:2s;transition:2s;}
+
+.btn-mi-perfil{display:block;float:left;width:142px;height:35px;margin-left:29.19922%;padding-top:6px;border:1px solid rgb(242, 242, 242);border-radius:3px;background-color:rgba(222, 222, 222, 0);box-shadow:1px 1px 1px rgba(0, 0, 0, .5) inset;font-size:0.941em;line-height:1.38;text-align:center;color:rgb(242, 242, 242);resize:none;-webkit-transition:2s;-moz-transition:2s;-o-transition:2s;-ms-transition:2s;transition:2s;}
+
+.btn-salir{display:block;float:left;width:142px;height:35px;margin-left:29.19617%;padding-top:6px;border:1px solid rgb(242, 242, 242);border-radius:3px;background-color:rgba(222, 222, 222, 0);box-shadow:1px 1px 1px rgba(0, 0, 0, .5) inset;font-size:0.941em;line-height:1.38;text-align:center;color:rgb(242, 242, 242);resize:none;-webkit-transition:2s;-moz-transition:2s;-o-transition:2s;-ms-transition:2s;transition:2s;}
+
+.c-btn-aplicar{width:100%;margin:20px auto 0;}
+
+.c-checkboxes{width:30%;margin:20px auto 0;}
+
+.c-contenido{width:80%;margin:20px auto 0;padding-bottom:50px;}
+
+.c-datos-vacante{width:80%;margin:0 auto;}
+
+.c-head{width:1024px;margin:0 auto;}
+
+.c-links{float:left;width:1024px;}
+
+.c-main,.c-nav{width:1024px;margin:0 auto;padding-top:20px;}
+
+.c-optiones-derecha,.c-optiones-izquierda{float:left;width:50%;}
+
+.c-titulo{float:left;width:816px;margin-left:10.25391%;}
+
+.c-vacante{width:80%;margin:0 auto;padding:20px;border-radius:3px;background-color:rgba(0, 0, 0, 0.16);}
+
+.checkbox{float:left;width:100%;margin-top:6px;font-size:0.941em;font-weight:400;line-height:1.38;color:rgb(242, 242, 242);}
+
+.contenido,.tipo-prestacion,.tipo-vacante{float:left;width:100%;font-size:1em;line-height:1.38;color:rgb(0, 0, 0);}
+
+.carrera,.empresa,.keyword1,.keyword2,.nivel-ingles,.sueldo,.tipo-estancia,.tipo-sueldo{float:left;clear:both;width:100%;margin-top:22px;font-size:1em;line-height:1.38;color:rgb(0, 0, 0);}
+
+.fecha{margin:20px auto 0;padding:12px;font-size:1em;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
+
+.tipo-trabajo{margin:56px auto 0;font-size:1.059em;line-height:1.38;text-align:center;color:#f2f2f2;}
+
+.titulo{margin:0 auto;padding-top:20px;font-size:1.412em;line-height:1.38;text-align:center;color:rgb(0, 0, 0);}
