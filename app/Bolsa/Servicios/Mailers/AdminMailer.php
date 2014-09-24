@@ -13,9 +13,18 @@ class AdminMailer extends Mailer {
     public function __construct()
     {
         /** @var $adminGeneral User */
-        $adminGeneral = User::where("tipo_usuario", TipoUsuarioModel::ADMIN_GENERAL)->firstOrFail();
+        try
+        {
+            $adminGeneral = User::where("tipo_usuario", TipoUsuarioModel::ADMIN_GENERAL)->firstOrFail();
 
-        Mail::alwaysFrom($adminGeneral->present()->correo, app('config')->get('mail.from.name'));
+            Mail::alwaysFrom($adminGeneral->present()->correo, app('config')->get('mail.from.name'));
+        }
+        catch (\Illuminate\Database\Eloquent\ModelNotFoundException $e)
+        {
+            $class = __CLASS__;
+            app('log')->error("No existe el admin general - {$class} - {$e->getMessage()}");
+        }
+
     }
 
     /**
