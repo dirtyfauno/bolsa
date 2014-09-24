@@ -1,10 +1,22 @@
 <?php namespace Bolsa\Correo;
 
+use Mail;
+use TipoUsuarioModel;
+use User;
+
 /**
  * Class EmpresaMailer
  * @package Bolsa\Correo
  */
 class EmpresaMailer extends Mailer {
+
+    public function __construct()
+    {
+        /** @var $adminGeneral User */
+        $adminGeneral = User::where("tipo_usuario", TipoUsuarioModel::ADMIN_GENERAL)->firstOrFail();
+
+        Mail::alwaysFrom($adminGeneral->present()->correo, app('config')->get('mail.from.name'));
+    }
 
     /**
      * @param       $empresa_mail
