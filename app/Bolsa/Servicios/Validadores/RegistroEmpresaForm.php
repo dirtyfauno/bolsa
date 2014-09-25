@@ -20,6 +20,6 @@ class RegistroEmpresaForm extends FormValidator {
         'email'              => 'email|required|unique:users',
         'rfc'                => 'required',
         'logo'               => 'required|image|mimes:png,jpg,jpeg|max:1000',
-        'password'           => 'required|confirmed'
+        'password'           => 'required|alpha_num|min:8|confirmed'
     );
 }
