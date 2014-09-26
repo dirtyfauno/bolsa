@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0">
     <title>Bolsa de Trabajo: Estadísticas</title>
-    <link href="http://fonts.googleapis.com/css?family=Muli:300"
+    <link href="//fonts.googleapis.com/css?family=Muli:300"
           rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/css/standardize.css">
-    <link rel="stylesheet" href="/css/estadisticas.css">
+    <link rel="stylesheet" href="css/standardize.css">
+    <link rel="stylesheet" href="css/estadisticas.css">
     <style>
         .estadisticas-table {
             border: 1px solid rgb(196, 106, 41);
@@ -130,8 +130,8 @@
 </div>
 @include('partials.js-variables')
 </body>
-<script src="/bower_components/chartjs/Chart.min.js"></script>
-<script src="/js/jquery-min.js"></script>
+<script src="bower_components/chartjs/Chart.min.js"></script>
+<script src="js/jquery-min.js"></script>
 <script>
 var globales = {
     numeroScalas       : 3,
