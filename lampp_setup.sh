@@ -1,4 +1,5 @@
 curl -sS https://getcomposer.org/installer | /opt/lampp/bin/php
+/opt/lampp/bin/php composer.phar composer install --prefer-dist --no-dev
 /opt/lampp/bin/php composer.phar dump-autoload --optimize
 /opt/lampp/bin/php artisan key:generate"
 /opt/lampp/bin/php artisan bolsa:setup"
