@@ -5,8 +5,8 @@
   <meta name="viewport" content="initial-scale=1.0">
   <title>home</title>
   <link href="//fonts.googleapis.com/css?family=Muli:300|Josefin+Slab:400" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/standardize.css">
-  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="{{ asset('css/standardize.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/home.css') }}">
 </head>
 <body class="body home clearfix">
   <div class="c-nav clearfix">
@@ -33,7 +33,7 @@
     </div>
   </div>
 
-  <script src="js/jquery-min.js"></script>
-  <script src="js/rimages.js"></script>
+  <script src="{{ asset('js/jquery-min.js') }}"></script>
+  <script src="{{ asset('js/rimages.js') }}"></script>
 </body>
 </html>
