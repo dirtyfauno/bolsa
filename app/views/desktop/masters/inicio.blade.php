@@ -5,8 +5,8 @@
     <meta name="viewport" content="initial-scale=1.0">
     <title>Bolsa de Trabajo</title>
     <link href="//fonts.googleapis.com/css?family=Muli:300|Josefin+Slab:400" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/css/standardize.css">
-    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="css/standardize.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body class="body home clearfix">
 <div class="c-nav clearfix">
