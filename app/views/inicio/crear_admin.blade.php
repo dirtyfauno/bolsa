@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="/admin/admin-bootstrap-min.css">
+    <link rel="stylesheet" href="admin/admin-bootstrap-min.css">
     <style>
         @import url(http://fonts.googleapis.com/css?family=Muli:300,100,400,400|Josefin+Slab:100,400);
 
