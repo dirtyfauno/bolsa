@@ -6,8 +6,8 @@
     <title>Bolsa de Trabajo: Estadísticas</title>
     <link href="//fonts.googleapis.com/css?family=Muli:300"
           rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/standardize.css">
-    <link rel="stylesheet" href="css/estadisticas.css">
+    {{ HTML::style('css/standardize.css') }}
+    {{ HTML::style('css/estadisticas.css') }}
     <style>
         .estadisticas-table {
             border: 1px solid rgb(196, 106, 41);
@@ -130,8 +130,8 @@
 </div>
 @include('partials.js-variables')
 </body>
-<script src="bower_components/chartjs/Chart.min.js"></script>
-<script src="js/jquery-min.js"></script>
+{{ HTML::script('bower_components/chartjs/Chart.min.js') }}
+{{ HTML::script('js/jquery-min.js') }}
 <script>
 var globales = {
     numeroScalas       : 3,

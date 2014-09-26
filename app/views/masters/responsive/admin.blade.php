@@ -9,7 +9,7 @@
     <link rel="icon" href="favicon.ico">
     <title>Administración Bolsa de Trabajo</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="admin/admin-bootstrap-min.css">
+    {{ HTML::style('admin/admin-bootstrap-min.css') }}
     <style>
         /*
          * Base structure

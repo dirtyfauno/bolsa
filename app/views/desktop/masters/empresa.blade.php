@@ -4,12 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0">
     <title>Bolsa de Trabajo: Menú Empresa</title>
-    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:400,400,300|Muli:400" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/standardize.css">
-    <link rel="stylesheet" href="css/empresa_inicio.css">
-
-    <link rel="stylesheet" href="{{ url('editor/css/medium-editor.css') }}">
-    <link rel="stylesheet" href="{{ url('editor/css/themes/default.css') }}">
+    <link href="//fonts.googleapis.com/css?family=Josefin+Slab:400,400,300|Muli:400" rel="stylesheet" type="text/css">
+    {{ HTML::style('css/standardize.css') }}
+    {{ HTML::style('css/empresa_inicio.css') }}
+    {{ HTML::style('editor/css/medium-editor.css') }}
+    {{ HTML::style('editor/css/themes/default.css') }}
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <style>
         * {
@@ -121,7 +120,7 @@
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script>
 <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="{{ url('editor/js/medium-editor.js') }}"></script>
+{{ HTML::script('editor/js/medium-editor.js') }}
 <script>
     jQuery.fn.center = function (parent) {
         if (parent) {

@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0">
   <title>{{ $html_title or "Bolsa de Trabajo: Vacante" }}</title>
-  <link href="http://fonts.googleapis.com/css?family=Muli:300,400" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/standardize.css">
-  <link rel="stylesheet" href="css/vacante.css">
+  <link href="//fonts.googleapis.com/css?family=Muli:300,400" rel="stylesheet" type="text/css">
+  {{ HTML::style('css/standardize.css') }}
+  {{ HTML::style('css/vacante.css') }}
   <style>
     a {
       /* links */
@@ -17,6 +17,6 @@
 </head>
 <body class="body vacante clearfix">
   @yield('vacante')
-  <script src="js/jquery-min.js"></script>
+{{ HTML::script('js/jquery-min.js') }}
 </body>
 </html>

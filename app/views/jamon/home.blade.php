@@ -5,10 +5,9 @@
     <meta name="viewport" content="initial-scale=1.0">
 
     <title>Bolsa de Trabajo</title>
-    <link href="http://fonts.googleapis.com/css?family=Muli:400,300,400|Josefin+Slab:100" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/standardize.css">
-    <link rel="stylesheet" href="css/index-grid.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link href="//fonts.googleapis.com/css?family=Muli:400,300,400|Josefin+Slab:100" rel="stylesheet" type="text/css">
+    {{ HTML::style('css/standardize.css') }}
+    {{ HTML::style('css/index.css') }}
 </head>
 <body class="body index clearfix">
 <nav class="_container _container-1">
@@ -62,7 +61,6 @@
     </aside>
     {{ $vacantes->links() }}
 </div>
-
-<script src="js/jquery-min.js"></script>
+{{ HTML::script('js/jquery-min.js') }}
 </body>
 </html>

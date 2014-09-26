@@ -10,7 +10,7 @@
 
     <title>Bolsa de Trabajo</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="admin/admin-bootstrap-min.css">
+    {{ HTML::style('admin/admin-bootstrap-min.css') }}
     <style>
         /*
          * Globals
