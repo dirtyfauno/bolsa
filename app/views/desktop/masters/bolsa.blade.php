@@ -6,8 +6,8 @@
 
   <title>{{ $html_title or 'Bolsa de Trabajo: Vacantes' }}</title>
   <link href="http://fonts.googleapis.com/css?family=Muli:300,100,400,400|Josefin+Slab:100,400" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/standardize.css">
-  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body class="body index clearfix">
 <nav class="nav-principal clearfix">
@@ -27,6 +27,6 @@
   </div>
 </div>
 
-<script src="/js/jquery-min.js"></script>
+<script src="js/jquery-min.js"></script>
 </body>
 </html>
