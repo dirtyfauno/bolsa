@@ -5,8 +5,8 @@
     <meta name="viewport" content="initial-scale=1.0">
     <title>Bolsa de Trabajo: Menú Empresa</title>
     <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:400,400,300|Muli:400" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/css/standardize.css">
-    <link rel="stylesheet" href="/css/empresa_inicio.css">
+    <link rel="stylesheet" href="css/standardize.css">
+    <link rel="stylesheet" href="css/empresa_inicio.css">
 
     <link rel="stylesheet" href="{{ url('editor/css/medium-editor.css') }}">
     <link rel="stylesheet" href="{{ url('editor/css/themes/default.css') }}">
