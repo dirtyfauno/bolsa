@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Reset</title>
 </head>
 <body>
 <h1>reset</h1>
