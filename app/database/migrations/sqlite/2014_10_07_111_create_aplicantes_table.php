@@ -16,15 +16,15 @@ class CreateAplicantesTable extends Migration {
         {
             $table->increments('id');
 
-            $table->tinyInteger('user_id')->unsigned();
+            $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
 
             $table->string('nombre', 80);
 
-            $table->tinyInteger("carrera")->unsigned();
+            $table->integer("carrera")->unsigned();
             $table->foreign('carrera')->references('id')->on('cat_carreras');
 
-            $table->tinyInteger("universidad_id")->unsigned();
+            $table->integer("universidad_id")->unsigned();
             $table->foreign('universidad_id')->references('id')->on('cat_universidades');
 
             $table->string("matricula", 30);

@@ -48,7 +48,7 @@ Route::get('/', array(
     'uses'   => 'BolsaController@seleccion'
 ));
 
-Route::post('/', array(
+Route::post('/ingreso', array(
     'as'   => 'ingreso.post',
     'uses' => 'SessionController@ingreso'
 ));

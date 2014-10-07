@@ -20,25 +20,25 @@ class CreateVacantesTable extends Migration {
 
             $table->tinyInteger('status')->default(VacanteModel::ACTIVA)->unsigned();
 
-            $table->tinyInteger('empresa_id')->unsigned();
+            $table->integer('empresa_id')->unsigned();
             $table->foreign('empresa_id')->references('id')->on('empresas');
 
             $table->string('correo');
 
-            $table->tinyInteger('carrera_id')->unsigned();
+            $table->integer('carrera_id')->unsigned();
             $table->foreign('carrera_id')->references('id')->on('cat_carreras');
 
             $table->boolean("mailed")->default(false);
 
             $table->string("puesto", 50);
 
-            $table->tinyInteger('titulado_id')->unsigned();
+            $table->integer('titulado_id')->unsigned();
             $table->foreign('titulado_id')->references('id')->on('cat_titulado');
 
-            $table->tinyInteger('experiencia_id')->unsigned();
+            $table->integer('experiencia_id')->unsigned();
             $table->foreign('experiencia_id')->references('id')->on('cat_experiencia');
 
-            $table->tinyInteger('tipo_id')->unsigned();
+            $table->integer('tipo_id')->unsigned();
             $table->foreign('tipo_id')->references('id')->on('cat_vacantes');
 
             $table->string('area', 50);
@@ -47,7 +47,7 @@ class CreateVacantesTable extends Migration {
 
             $table->integer('oferta')->unsigned();
 
-            $table->tinyInteger('ingles_id')->unsigned();
+            $table->integer('ingles_id')->unsigned();
             $table->foreign('ingles_id')->references('id')->on('cat_ingles');
 
             $table->boolean("rotar")->default(false);

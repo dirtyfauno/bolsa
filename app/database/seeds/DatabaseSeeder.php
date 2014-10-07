@@ -69,15 +69,15 @@ class DatabaseSeeder extends Seeder {
     private function cleanDB()
     {
         # todo: detectar dinámicamente el tipo de base de datos
-        DB::statement('PRAGMA foreign_keys = OFF'); //sqlite
+        #DB::statement('PRAGMA foreign_keys = OFF'); //sqlite
 
-        //        DB::statement("SET FOREIGN_KEY_CHECKS=0"); // mysql
+       DB::statement("SET FOREIGN_KEY_CHECKS = 0;"); // mysql
         foreach ($this->tables as $table)
         {
             DB::table($table)->truncate();
         }
 
-        DB::statement('PRAGMA foreign_keys = ON');
-        //        DB::statement("SET FOREIGN_KEY_CHECKS=1");
+        #DB::statement('PRAGMA foreign_keys = ON');
+       DB::statement("SET FOREIGN_KEY_CHECKS = 1;");
     }
 }

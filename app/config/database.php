@@ -45,17 +45,25 @@ return array(
 	*/
 
 	'connections' => array(
-		'sqlite'   => array(
-			'driver'   => 'sqlite',
-			'database' =>
-				__DIR__ . '/../database/production.sqlite',
-			'prefix'   => '',
+		'sqlite' => array(
+			'driver'    => 'mysql',
+			'host'      => 'localhost',
+			'database'  => 'bolsa_production',
+			'username'  => 'root',
+			'password'  => '',
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => '',
 		),
 		'reportes' => array(
-			'driver'   => 'sqlite',
-			'database' =>
-				__DIR__ . '/../database/reportes.sqlite',
-			'prefix'   => '',
+			'driver'    => 'mysql',
+			'host'      => 'localhost',
+			'database'  => 'bolsa_reportes',
+			'username'  => 'root',
+			'password'  => '',
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => '',
 		)
 	),
 

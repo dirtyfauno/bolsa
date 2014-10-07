@@ -16,7 +16,8 @@ class CreateUsersTable extends Migration {
         {
             $table->increments('id');
 
-            $table->tinyInteger('tipo_usuario')->unsigned();
+            $table->integer('tipo_usuario')->unsigned();
+            $table->foreign('tipo_usuario')->references('id')->on('cat_usuarios');
 
             $table->string('username', 20)->unique()->nullable();
 
@@ -30,7 +31,6 @@ class CreateUsersTable extends Migration {
 
             $table->timestamps();
 
-            $table->foreign('tipo_usuario')->references('id')->on('cat_usuarios');
         });
     }
 
