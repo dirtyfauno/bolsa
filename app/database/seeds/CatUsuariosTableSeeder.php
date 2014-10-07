@@ -7,7 +7,7 @@ class CatUsuariosTableSeeder extends Seeder {
     $tipos = array(
       'Admin',
       'Reclutador',
-      'Zorro'
+      'Zorro',
       'Super'
     );
 
