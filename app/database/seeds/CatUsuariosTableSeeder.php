@@ -8,6 +8,7 @@ class CatUsuariosTableSeeder extends Seeder {
       'Admin',
       'Reclutador',
       'Zorro'
+      'Super'
     );
 
     foreach ($tipos as $tipo)
