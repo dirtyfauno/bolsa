@@ -89,41 +89,53 @@ class SetupBolsa extends Command {
             $this->info("ya existe la key para las vacantes");
         }
 
-        $db_path = app_path() . "/database/";
-
-        if(\File::exists($db_path . "production.sqlite"))
-        {
-            $this->info("ya existe la bases de datos \"production\"");
-        }
-        else
-        {
-            $this->comment("creando bd production");
-
-            // crear bases de datos sqlite
-            file_put_contents($db_path . "production.sqlite", null);
-
-            Artisan::call("migrate", array(
+	$this->comment("migrando bd production");
+	
+	Artisan::call("migrate", array(
                 "--database" => "sqlite",
                 "--path" => "app/database/migrations/sqlite"));
+               
+        // $db_path = app_path() . "/database/";
 
-        }
+        // if(\File::exists($db_path . "production.sqlite"))
+        // {
+        //     $this->info("ya existe la bases de datos \"production\"");
+        // }
+        // else
+        // {
+        //     $this->comment("creando bd production");
 
-        if(\File::exists($db_path . "reportes.sqlite"))
-        {
-            $this->info("ya existe las bases de datos \"reportes\"");
-        }
-        else
-        {
-            $this->comment("creando bd reportes");
+        //     // crear bases de datos sqlite
+        //     file_put_contents($db_path . "production.sqlite", null);
 
-            // crear bases de datos sqlite
-            file_put_contents($db_path . "reportes.sqlite", null);
+        //     Artisan::call("migrate", array(
+        //         "--database" => "sqlite",
+        //         "--path" => "app/database/migrations/sqlite"));
 
-            // migrar bases de datos
-            Artisan::call("migrate", array(
+        // }
+
+	$this->comment("creando bd reportes");
+                
+        Artisan::call("migrate", array(
                 "--database" => "reportes",
                 "--path" => "app/database/migrations/reportes"));
-        }
+                
+        // if(\File::exists($db_path . "reportes.sqlite"))
+        // {
+        //     $this->info("ya existe las bases de datos \"reportes\"");
+        // }
+        // else
+        // {
+        //     $this->comment("creando bd reportes");
+
+        //     // crear bases de datos sqlite
+        //     file_put_contents($db_path . "reportes.sqlite", null);
+
+        //     // migrar bases de datos
+        //     Artisan::call("migrate", array(
+        //         "--database" => "reportes",
+        //         "--path" => "app/database/migrations/reportes"));
+        // }
 
 		$this->info("setup exitoso.");
 	}
