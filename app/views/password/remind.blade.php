@@ -10,10 +10,10 @@
 </head>
 <body class="body home clearfix">
   <div class="c-nav clearfix">
-    <img class="logo" src="images/logo_ITQ_original-120x131.png" data-rimage data-src="images/logo_ITQ_original-120x131.png">
+    <img class="logo" src="{{ asset('images/logo_ITQ_original-120x131.png') }}" data-rimage data-src="{{ asset('images/logo_ITQ_original-120x131.png') }}">
   </div>
   <div class="c-main clearfix">
-    <p class="titulo">Bolsa de Trabajo del Instituto Tecnológico de Querérato</p>
+    <p class="titulo">Bolsa de Trabajo del Instituto Tecnológico de Querétaro</p>
 
     <div class="c-opciones c-opciones-2 clearfix">
       {{ Form::open() }}
