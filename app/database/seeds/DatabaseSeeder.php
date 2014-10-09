@@ -1,7 +1,13 @@
 <?php
 
+/**
+ * Class DatabaseSeeder
+ */
 class DatabaseSeeder extends Seeder {
 
+    /**
+     * @var array
+     */
     protected $tables = array(
         "cat_carreras",
         "cat_vacantes",
@@ -18,6 +24,9 @@ class DatabaseSeeder extends Seeder {
 
     );
 
+    /**
+     * @var array
+     */
     protected $seeders = array(
         "CarrerasTableSeeder",
         "TipoVacanteTableSeeder",
@@ -66,6 +75,9 @@ class DatabaseSeeder extends Seeder {
         }
     }
 
+    /**
+     *
+     */
     private function cleanDB()
     {
         # todo: detectar dinámicamente el tipo de base de datos
