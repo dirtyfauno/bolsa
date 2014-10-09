@@ -17,3 +17,4 @@ app/**/*.doc
 app/**/*.docx
 app/config/packages/way/
 app/templates/
+public/images/empresa_logo/*
