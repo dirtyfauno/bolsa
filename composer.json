@@ -49,18 +49,7 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "composer dump-autoload --optimize",
-            "php artisan key:generate",
-            "php artisan bolsa:setup",
-            "php artisan db:seed --env=bolsa --database=sqlite",
-            "sudo chmod -R 777 app/storage",
-            "sudo chmod 777 app/database/production.sqlite",
-            "sudo chmod 777 app/database/reportes.sqlite",
-            "composer dump-autoload --optimize",
-            "php artisan optimize",
-            "echo agrega!! las credenciales mandrill en el archivo .env.php",
-            "sudo chown www-data app/database/production.sqlite",
-            "sudo chown www-data app/database/reportes.sqlite"
+            "composer dump-autoload --optimize"
         ]
     },
     "minimum-stability": "stable",
