@@ -31,9 +31,18 @@ class AplicanteController extends \BaseController {
 
         $user = User::with("aplicante")->findOrFail($id);
 
-        $file = cv_path() . $user->aplicante->cv;
+        try
+        {
+            $file = cv_path() . $user->aplicante->cv;
+            return  Response::download($file);
+        }
+        catch (Exception $e)
+        {
+            Log::error($e->getMessage());
 
-        return Response::download($file);
+            Flash::error("Hubo un problema, por favor intenta más tarde");
+            return Redirect::route("aplicante.inicio");
+        }
     }
 
     /**
@@ -105,7 +114,7 @@ class AplicanteController extends \BaseController {
             }
             catch (FileException $e)
             {
-                Log::error("error al subir cv del usuario {$aplicante->id}: al directorio de cv");
+                Log::error("error al subir cv del usuario {$aplicante->id}: al directorio de cv, checar permisos del directorio.");
                 Log::error($e->getMessage());
 
                 Flash::error("Hubo un problema con tu currículum, intenta de nuevo.");
