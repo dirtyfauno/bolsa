@@ -20,7 +20,7 @@
             width: 104px;
             height: 57px;
             margin-left: 15px;
-            background-image: url('../images/empresa_logo/{{ $empresa->logo or "none" }}');
+            background-image: url("{{ asset('images/empresa_logo/' . $empresa->logo) }}");
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center center;
