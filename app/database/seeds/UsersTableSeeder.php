@@ -23,7 +23,7 @@ class UsersTableSeeder extends Seeder {
         User::create(array(
             'tipo_usuario' => TipoUsuarioModel::ADMIN,
             'email'        => "admin@bolsa.com",
-            'password'     => Hash::make('bolsa'),
+            'password'     => Hash::make('01234567'),
         ));
     }
 
@@ -38,7 +38,7 @@ class UsersTableSeeder extends Seeder {
             User::create(array(
                 'tipo_usuario' => TipoUsuarioModel::RECLUTADOR,
                 'email'        => "{$index}@reclutador.com",
-                'password'     => Hash::make('jamon'),
+                'password'     => Hash::make('01234567'),
             ));
         }
     }
@@ -51,7 +51,7 @@ class UsersTableSeeder extends Seeder {
             User::create(array(
                 'tipo_usuario' => TipoUsuarioModel::APLICANTE,
                 'email'        => "{$index}@aplicante.com",
-                'password'     => Hash::make('jamon'),
+                'password'     => Hash::make('01234567'),
             ));
         }
     }
