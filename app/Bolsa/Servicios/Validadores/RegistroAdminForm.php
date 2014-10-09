@@ -13,6 +13,6 @@ class RegistroAdminForm extends FormValidator {
      */
     protected $rules = array(
         'email'          => 'required|email|unique:users',
-        'password'       => 'required|alpha_num|min:8'
+        'password'       => 'Required|Between:8,32|Regex:/^([a-z0-9!@#$€£%^&*_+-])+$/i'
     );
 }
