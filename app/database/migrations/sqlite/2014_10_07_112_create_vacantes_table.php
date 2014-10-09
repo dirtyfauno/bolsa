@@ -68,23 +68,12 @@ class CreateVacantesTable extends Migration {
 
             $table->text('contenido');
 
-            //            $table->string('keyword1', 20);
-
-            //            $table->string('keyword2', 20);
-
-            //            $table->tinyInteger('tipo_sueldo')->unsigned();
-            //            $table->foreign('tipo_sueldo')->references('id')->on('cat_sueldos');
-
-            //            $table->tinyInteger('tipo_prestacion')->unsigned();
-            //            $table->foreign('tipo_prestacion')->references('id')->on('cat_prestaciones');
-
-            //            $table->tinyInteger('tipo_estancia')->unsigned();
-            //            $table->foreign('tipo_estancia')->references('id')->on('cat_estancias');
-
             $table->softDeletes();
 
             $table->timestamps();
         });
+
+        DB::statement("ALTER TABLE `vacantes` CHANGE `string_id` `string_id` VARCHAR(255)  CHARACTER SET utf8  COLLATE utf8_bin  NOT NULL  DEFAULT '';");
     }
 
     /**
