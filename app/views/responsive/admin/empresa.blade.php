@@ -1,7 +1,7 @@
 @extends("masters/responsive/admin")
 @section("main")
 <h1 class="page-header">
-    <img src="images/empresa_logo/{{ $empresa->logo or 'none' }}" alt="{{ $empresa->logo or 'none' }}" class="img-thumbnail">
+    <img src="{{ asset('images/empresa_logo/' . $empresa->logo) }}" alt="{{ $empresa->logo or 'none' }}" class="img-thumbnail">
     {{ $empresa->present()->nombre }}
     <small>{{ $empresa->present()->status }}</small>
 </h1>
