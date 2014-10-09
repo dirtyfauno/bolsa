@@ -27,7 +27,7 @@ return array(
     |
     */
 
-    'host' => 'smtp.mailgun.org',
+    'host' => 'smtp.mandrillapp.com',
     /*
     |--------------------------------------------------------------------------
     | SMTP Host Port
@@ -39,7 +39,7 @@ return array(
     |
     */
 
-    'port'       => 587,
+    'port'       => 465,
     /*
     |--------------------------------------------------------------------------
     | Global "From" Address
@@ -75,7 +75,7 @@ return array(
     |
     */
 
-    'username' => null,
+    'username' => getenv('SMTP_USER'),
     /*
     |--------------------------------------------------------------------------
     | SMTP Server Password
@@ -87,7 +87,7 @@ return array(
     |
     */
 
-    'password' => null,
+    'password' => getenv('MANDRILL_KEY'),
     /*
     |--------------------------------------------------------------------------
     | Sendmail System Path
