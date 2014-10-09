@@ -18,6 +18,6 @@ class RegistroAplicanteForm extends FormValidator {
         'matricula'      => 'required',
         'email'          => 'email|required|unique:users',
         'cv'             => 'required|max:1024|mimes:pdf,doc,docx',
-        'password'       => 'required|alpha_num|min:8|confirmed'
+        'password'       => 'Required|Between:8,32|Confirmed|Regex:/^([a-z0-9!@#$€£%^&*_+-])+$/i'
     );
 }
