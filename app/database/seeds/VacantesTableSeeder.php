@@ -66,12 +66,12 @@ class VacantesTableSeeder extends Seeder {
 
         foreach (range(1, $max_vacantes) as $index)
         {
-            $id = $index + (int) Config::get('bolsa.ofuscator.offset');
+//            $id = $index + (int) Config::get('bolsa.ofuscator.offset');
 
             $fecha_de_creacion = $faker->dateTimeBetween($meses_anteriores, 'now');
 
             VacanteModel::create(array(
-                'string_id'      => Tiny::to($id),
+                'string_id'      => Tiny::to($index),
                 'empresa_id'     => $faker->randomElement(EmpresaModel::lists('id')),
                 'correo'         => $faker->companyEmail,
                 'carrera_id'     => $faker->randomElement(CarreraModel::lists('id')),
