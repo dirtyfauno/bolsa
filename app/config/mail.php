@@ -27,8 +27,7 @@ return array(
     |
     */
 
-//    'host'       => $_ENV['SMTP'],
-    'host'       => null,
+   'host'       => getenv('SMTP'),
     /*
     |--------------------------------------------------------------------------
     | SMTP Host Port
@@ -40,8 +39,7 @@ return array(
     |
     */
 
-    'port'       => 465,
-//    'port'       => 587,
+    'port'       => 465, // or 587
     /*
     |--------------------------------------------------------------------------
     | Global "From" Address
@@ -77,8 +75,7 @@ return array(
     |
     */
 
-//    'username'   => $_ENV['SMTP_USER'],
-    'username'   => null,
+   'username'   => getenv('SMTP_USER'),
     /*
     |--------------------------------------------------------------------------
     | SMTP Server Password
@@ -90,8 +87,7 @@ return array(
     |
     */
 
-//    'password'   => $_ENV['MANDRILL_KEY'],
-    'password'   => null,
+   'password'   => getenv('MANDRILL_KEY'),
     /*
     |--------------------------------------------------------------------------
     | Sendmail System Path
