@@ -48,11 +48,10 @@ class EmpresaController extends ApiBolsaController {
         {
             $formData = Input::all();
 
-            $this->empresaForm->validate($formData);
+            $this->empresaForm->excluirUser(Auth::id())->validate($formData);
         }
         catch (FormValidationException $e)
         {
-
             return Redirect::back()->withInput()->withErrors($e->getErrors())
                 ->with("alerta", "Hubo un problema con tus datos, corrígelos por favor.");
         }
