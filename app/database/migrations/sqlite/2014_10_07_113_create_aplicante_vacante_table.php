@@ -16,7 +16,8 @@ class CreateAplicanteVacanteTable extends Migration {
 		{
 			$table->increments('id');
 			$table->integer('aplicante_id')->unsigned()->index();
-			$table->foreign('aplicante_id')->references('id')->on('users')->onDelete('cascade');
+			$table->foreign('aplicante_id')->references('id')->on('aplicantes')->onDelete('cascade');
+
 			$table->integer('vacante_id')->unsigned()->index();
 			$table->foreign('vacante_id')->references('id')->on('vacantes')->onDelete('cascade');
 			$table->timestamps();
